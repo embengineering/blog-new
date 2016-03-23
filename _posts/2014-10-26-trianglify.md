@@ -1,6 +1,6 @@
 ---
 title: Trianglify
-summary: Thoughts on my first popular project, and why it matters.
+summary: (Template) Thoughts on my first popular project, and why it matters.
 layout: post
 date: 2014-10-26 11:24
 
