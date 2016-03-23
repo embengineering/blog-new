@@ -1,5 +1,5 @@
 description: A blog about startups, technology, and other interesting things.
-url: http://embengineering.com/blognew
+baseurl: "/blog-new" # the subpath of your site, e.g. /blog
 permalink: /posts/:title
 markdown: redcarpet
 redcarpet:
