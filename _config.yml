@@ -1,7 +1,6 @@
 description: A blog about startups, technology, and other interesting things.
 baseurl: "/blog-new" # the subpath of your site, e.g. /blog
 permalink: /posts/:title
-markdown: redcarpet
 redcarpet:
     extensions: [with_toc_data]
 future: true
@@ -11,3 +10,6 @@ include: [".well-known"]
 sass:
     sass_dir: _sass
     sourcemap: true
+    
+# Build settings
+markdown: kramdown
