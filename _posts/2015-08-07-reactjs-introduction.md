@@ -1,8 +1,8 @@
 ---
-layout: post
-title: ReactJS: Introduction
-date: 2015-08-07 12:00:00 -0600
+title: "ReactJS - Introduction"
 summary: "ReactJS presentation and useful resources (at the end)"
+layout: post
+date: "2015-08-07 12:00:00 -0600"
 ---
 
 ReactJS presentation and useful resources (at the end).
