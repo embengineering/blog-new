@@ -2,7 +2,7 @@
 layout: post
 title: ReactJS: Introduction
 date: 2015-08-07 12:00:00 -0600
-summary: ReactJS presentation and useful resources (at the end)
+summary: "ReactJS presentation and useful resources (at the end)"
 ---
 
 ReactJS presentation and useful resources (at the end).
