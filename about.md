@@ -5,7 +5,7 @@ summary: My name is Emmanuel Morales, and I'm a Front-End Developer at Dallas, T
 permalink: /about/index.html
 ---
 
-<img src="https://avatars0.githubusercontent.com/u/1769860?v=3&s=460" alt="EMB Engineering Avatar" align="left" style="margin: 0 10px 10px 0;"/>
+<img src="https://avatars0.githubusercontent.com/u/1769860?v=3&s=460" alt="EMB Engineering Avatar" align="left"/>
 <br/>
 
 # A little background! 
