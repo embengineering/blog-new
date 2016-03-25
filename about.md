@@ -1,11 +1,13 @@
 ---
 title: About
 layout: page
-summary: My name is Quinn Rohlf, and I build neat things as a web developer and student in Portland, Oregon.
+summary: My name is Emmanuel Morales, and I'm a web developer in Dallas, TX.
 permalink: /about/index.html
 ---
-# Hello!
-I'm Quinn. I like to build interesting things and solve hard problems. I'll be joining New Relic as a software engineer this coming June. For now, I go to school, work on a couple of  [interesting side projects](/projects), and write on this blog. I have a background in full-stack web development and spend a lot of time playing with design ideas and new ways to present content. I believe that simple and thoughtful design can make the world a better place.
+
+![Avatar](https://avatars0.githubusercontent.com/u/1769860?v=3&s=460)
+
+High‐performing, strategic‐thinking professional with more than **seven (7)** years of experience designing solutions for complex **web-based** business applications. Contributed to all levels of the product **development** cycle, from obtaining requirements, documenting, creating the architecture and structure, and delivering a quality approved solution. Experienced in **modular design** techniques, for creating flexible architectures easy to customize and adapt to other ends. Collaborated with product development teams using **Agile/Scrum** and **Waterfall** software methodologies. Developed **responsive cross-platform applications** using latest technologies such as **HTML5, ReactJS, AngularJS, jQuery, KendoUI, jQueryUI, JavaScript, MVC, WebAPI, Entity Framework**, among others.
 
 # Get In Touch
-You can follow me at [@qrohlf](https://twitter.com/qrohlf) on twitter, or send an email to [qr@qrohlf.com](mailto:qr@qrohlf.com).
+You can follow me at [@embengineering](https://twitter.com/embengineering) on twitter, or send an email to [contact@embengineering.com](mailto:contact@embengineering.com).
