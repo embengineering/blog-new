@@ -1,8 +1,8 @@
 ---
+title: "Effects of cell phone user before bed"
+summary: "What happen to the brain when using your cell phone before bed?"
 layout: post
-title: Random: Effects of cell phone user before bed
 date: "2015-09-11 12:00:00 -0600"
-summary: What happen to the brain when using your cell phone before bed?
 ---
 
 What happen to the brain when using your cell phone before bed?

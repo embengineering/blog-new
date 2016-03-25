@@ -1,6 +1,6 @@
-description: A blog about startups, technology, and other interesting things.
-url: "https://embengineering.com" # the base hostname & protocol for your site
-baseurl: "/blog-new" # the subpath of your site, e.g. /blog
+description: A blog of ideas and thoughts about Front-End development, technology and more.
+url: "https://blog.embengineering.com" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
 permalink: /posts/:title
 redcarpet:
     extensions: [with_toc_data]
@@ -11,6 +11,6 @@ include: [".well-known"]
 sass:
     sass_dir: _sass
     sourcemap: true
-    
+
 # Build settings
 markdown: kramdown
