@@ -3,7 +3,7 @@ title: Trianglify
 summary: (Template) Thoughts on my first popular project, and why it matters.
 layout: post
 date: 2014-10-26 11:24
-
+published: false
 ---
 
 Last spring, I wrote my first JavaScript library. In fact, this was probably the first time I'd written anything in JS longer than 30 lines of code, and definitely the first time I'd done it without JQuery. It was called [Trianglify](http://qrohlf.com/trianglify), and it generated geometric patterns that looked like this:
