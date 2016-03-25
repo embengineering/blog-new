@@ -5,10 +5,10 @@ summary: My name is Emmanuel Morales, and I'm a Front-End Developer at Dallas, T
 permalink: /about/index.html
 ---
 
-<img src="https://avatars0.githubusercontent.com/u/1769860?v=3&s=460" alt="EMB Engineering Avatar" align="left"/>
+<img src="https://avatars0.githubusercontent.com/u/1769860?v=3&s=460" alt="EMB Engineering Avatar" style="float:left"/>
 <br/>
 
-# A little background! 
+# Some Background! 
 High‐performing, strategic‐thinking professional with more than **seven (7)** years of experience designing solutions for complex **web-based** business applications. Contributed to all levels of the product **development** cycle, from obtaining requirements, documenting, creating the architecture and structure, and delivering a quality approved solution. Experienced in **modular design** techniques, for creating flexible architectures easy to customize and adapt to other ends. Collaborated with product development teams using **Agile/Scrum** and **Waterfall** software methodologies. Developed **responsive cross-platform applications** using latest technologies such as **HTML5, ReactJS, AngularJS, jQuery, KendoUI, jQueryUI, JavaScript, MVC, WebAPI, Entity Framework**, among others.
 
 # Get In Touch
