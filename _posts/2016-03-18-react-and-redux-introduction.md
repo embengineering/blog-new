@@ -1,6 +1,6 @@
 ---
-title: "React + Redux - Introduction"
-summary: "Introduction to Redux and ReactJS"
+title: "Introduction to React + Redux"
+summary: "An introduction to Redux and ReactJS"
 layout: post
 date: "2016-03-18 12:00:00 -0600"
 ---
