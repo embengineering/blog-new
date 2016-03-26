@@ -5,9 +5,17 @@
 //
 // =============================================================
 // =============================================================
-
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(/assets/intro-bg.jpg) no-repeat center center;
+  min-height: 100vh;
+}
 .hero {
   @extend .colors-blue-dark;
+  opacity: 0.97;
   min-height: 100vh;
   position: relative;
   // Position the arrow
