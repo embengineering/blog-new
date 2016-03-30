@@ -46,13 +46,11 @@ In React, data flows in **one direction**, from **Parent to Child**.  This helps
 
 `Props` are **"properties"** passed to a child component that can hold any data.
 
-Considering React components looks like HTML tags...
+Considering React components looks like HTML tags, `props` are passed as **"HTML attributes"**.
 
 ```html
 <Square size="25" className="highlight" onClick={onClick} />
 ```
-
-... `props` are passed as **"HTML attributes"**.
 
 Take in mind that JavaScript has reserved words such as **class**, so passing a CSS class can be done using **className**. For all supported `props` types, please refer [here](https://facebook.github.io/react/docs/reusable-components.html#prop-validation).
 
@@ -62,4 +60,6 @@ Let's define the `state` as the **private data a component's event handlers may 
 
 Be aware that in an ideal world, most of your components would be **stateless functions** because in the future we’ll also be able to make performance optimizations specific to these components by avoiding unnecessary checks and memory allocations. This is the [recommended pattern](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions).
 
-# Transferring Props
+# Communication Between Components
+
+In order to communicate between two components that don't have a parent-child relationship, a global event system can be used. We need to subscribe to events in `componentDidMount()`, unsubscribe in `componentWillUnmount()`, and call `setState()` when an event is received.  [Flux](https://facebook.github.io/flux/docs/overview.html) and [Redux](http://redux.js.org/index.html) are some of the possible ways to arrange this in a more elegant way.  Please take a look at all of the [Lifecycle Methods](https://facebook.github.io/react/docs/component-specs.html#lifecycle-methods) supported on a React component for more details.
