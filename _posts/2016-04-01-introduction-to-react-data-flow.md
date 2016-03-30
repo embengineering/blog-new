@@ -3,7 +3,7 @@ title: "Introduction to React Data Flow"
 summary: "An introduction to React Data Flow"
 layout: post
 date: "2016-03-18 12:00:00 -0600"
-published: false
+published: true
 ---
 While working with React, I constantly need to reference critical concepts about this technology. That's why I created this post, to reconcile how React data flows in a simple way, easy to understand.
 
