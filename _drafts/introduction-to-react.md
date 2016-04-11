@@ -1,15 +1,15 @@
 ---
-title: "Introduction to React Data Flow"
-summary: "Quick introduction to React Data Flow"
+title: "Introduction to React"
+summary: "Quick introduction to React"
 layout: post
 ---
 I constantly need to reference critical concepts about React. There is too much information out there, so my intention is to reconcile small concept about this technology.
 
-On this post, I'm going to cover **React Data Flow**, simple and concise.
+On this post, I'm going to cover **React**, simple and concise.
 
->"Simplicity is the ultimate sophistication."
+>“Life is really simple, but we insist on making it complicated.” 
 <br />
->*-Leonardo da Vinci*
+>*-Confucius*
 
 Let's start reviewing why React is so powerful and useful.
 
