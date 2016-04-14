@@ -5,7 +5,7 @@ layout: post
 date: 2016-04-13
 thumbnail: "/assets/images/react-virtual-dom.png"
 ---
-I constantly see myself referencing critical concepts about React. There is too much information out there, so my intention is to reconcile important concepts about this technology.
+I constantly see myself referencing critical concepts about React, such as its importance, syntax and performance. There is too much information out there, so my intention is to reconcile important concepts about this technology.
 
 On this post, I'm going to cover an **Introduction to React** by answering three questions: **Why, How, What**, by following the idea of the ["Golden Circle"](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action).
 
@@ -19,7 +19,7 @@ On this post, I'm going to cover an **Introduction to React** by answering three
 
 **Solving one problem.**  According to Facebook, React was built to solve one problem:  *building large applications with data that changes over time*.
 
-Large applications such as Manufacturing (MES), Hospital, Pharma, and Time & Attendance systems, often require too many user interactions.  Constantly, the application data changes from everywhere: APIs, mobile devices, interfaces, etc.  Performance is affected heavily.  Also, organization, maintenance and scalability were taken in consideration when building this technology.
+Large applications such as Manufacturing (MES), Hospital, Pharma, and Time & Attendance systems, often require too many user interactions.  Constantly, the application’s data changes everywhere: APIs, mobile devices, interfaces, etc.  Performance is affected heavily.  Also, organization, maintenance and scalability were taken in consideration when building this technology.
 
 **It's Simple.**  Simply define how your application will look at a specific time and React will manage all UI changes when the underlying data changes. Try modifying the **name** string on the following [example](http://codepen.io/embengineering/pen/reJXVg).
 
