@@ -1,6 +1,9 @@
 title: "EMB Engineering's Blog"
+author: "Emmanuel Morales"
+username: "@embengineering"
+email: "contact@embengineering.com"
 description: A blog of ideas and thoughts about Front-End development, technology and more.
-url: "https://blog.embengineering.com" # the base hostname & protocol for your site
+url: "http://blog.embengineering.com" # the base hostname & protocol for your site
 baseurl: "/" # the subpath of your site, e.g. /blog
 permalink: /posts/:title
 redcarpet:
