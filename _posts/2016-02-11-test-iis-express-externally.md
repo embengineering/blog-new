@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Test IIS Express Externally
-date: 2016-02-11 15:36:24 -0600
-summary: Have you ever been frustrated by the fact that there's no easy way to enable IIS Express to accept connections from remote devices?
+title: "Test IIS Express Externally"
+date: "2016-02-11"
 ---
-
-
 **Are you a .NET developer building mobile web applications? Have you ever been frustrated by the fact that there's no easy way to enable IIS Express to accept connections from remote devices?**
+
+<!--more-->
 
 Follow the following steps to make your life easier:
 

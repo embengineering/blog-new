@@ -1,6 +1,5 @@
 ---
 title: "Introduction to React"
-summary: "Quick introduction to React"
 layout: post
 date: 2016-04-13
 thumbnail: "/assets/images/react-virtual-dom.png"
@@ -8,6 +7,8 @@ thumbnail: "/assets/images/react-virtual-dom.png"
 I constantly see myself referencing critical concepts about React, such as its importance, syntax and performance. There is too much information out there, so my intention is to reconcile important concepts about this technology.
 
 On this post, I'm going to cover an **Introduction to React** by answering three questions: **Why, How, What**, by following the idea of the ["Golden Circle"](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action).
+
+<!--more-->
 
 ## Why?
 

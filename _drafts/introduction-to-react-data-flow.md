@@ -1,9 +1,10 @@
 ---
 title: "Introduction to React Data Flow"
-summary: "Quick introduction to React Data Flow"
 layout: post
 ---
 I constantly need to reference critical concepts about React. There is too much information out there, so my intention is to reconcile small concept about this technology.
+
+<!--more-->
 
 On this post, I'm going to cover **React Data Flow**, simple and concise.
 

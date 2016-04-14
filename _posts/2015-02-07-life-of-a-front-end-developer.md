@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Life of a Front-End Developer"
-date: "2015-02-07 23:36:24 -0600"
-summary: "A little background of my life as an Front-End Developer."
+date: "2015-02-07"
 ---
 
 ![Mind Map](/assets/posts/2016-02-07/image1.jpg)
 
 Every time I see these words I remember those days back before college when I wanted to be an Architect. According to the dictionary, an Architect is “a person who designs buildings and advises in construction projects”. For me, wanting to be an Architect was just the beginning of my journey; yet I found that there was something more that would fulfill my life than just house designing or building constructions. Designing, looking for simplicity, and giving advice would become part of my life as an UX designer.
+
+<!--more-->
 
 It all started when I began to notice how complex it was to do a lot of daily tasks such as bank transactions, monthly payments, project management, designing, finding a store in a huge shopping center… you name it. Then many people with my perception began to make a difference in the world creating web tools to simplify those daily tasks. Everyday there was something new on the web, something extraordinary. But at this point I was just being part of it, I was the user and I was not contributing to improve the user experience. Eventually, I started looking for ways to simplify even more those solutions, because I noticed that…
 

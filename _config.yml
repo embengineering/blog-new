@@ -1,3 +1,4 @@
+title: "EMB Engineering's Blog"
 description: A blog of ideas and thoughts about Front-End development, technology and more.
 url: "https://blog.embengineering.com" # the base hostname & protocol for your site
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -19,3 +20,4 @@ markdown: kramdown
 
 # Custom variables
 profile_thumbnail: "https://avatars0.githubusercontent.com/u/1769860?v=3&s=460"
+excerpt_separator: <!--more-->
