@@ -3,6 +3,7 @@ title: "Introduction to React"
 summary: "Quick introduction to React"
 layout: post
 date: 2016-04-13
+thumbnail: "/assets/images/react-virtual-dom.png"
 ---
 I constantly see myself referencing critical concepts about React. There is too much information out there, so my intention is to reconcile important concepts about this technology.
 
@@ -32,7 +33,7 @@ Large applications such as Manufacturing (MES), Hospital, Pharma, and Time & Att
 
 **It's Fast.**  React uses a virtual DOM to determine what changed in order to [reconcile](https://facebook.github.io/react/docs/reconciliation.html) and apply as few mutations as possible..
 
-![React Virtual Dom](/assets/posts/2016-04-01/react-virtual-dom.png)
+![React Virtual Dom](/assets/images/react-virtual-dom.png)
 
 Take a look at this [example](http://codepen.io/embengineering/full/yOvmoW), where a collection of 1K items is being rendered in React, Angular, Knockout and Raw JS. Also, make sure you **run multiple times** for each technology in order to see the benefit of the algorithm.
 
