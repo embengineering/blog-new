@@ -36,7 +36,7 @@ Large applications such as Manufacturing (MES), Hospital, Pharma, and Time & Att
 
 Take a look at this [example](http://codepen.io/embengineering/full/yOvmoW), where a collection of 1K items is being rendered in React, Angular, Knockout and Raw JS. Also, make sure you **run multiple times** for each technology in order to see the benefit of the algorithm.
 
-![Performance Result Example](/assets/images/react-angular-knockout-performance.png)
+![Performance Result Example](/assets/images/react-angular-knockout-performance-example.png)
 
 Note that performance can increase even more by manually using the [Lifecycle Method](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) **shouldComponentUpdate()** and returning **false** when you're certain that the new information ([props](https://facebook.github.io/react/docs/transferring-props.html)) received will not require a component update.
 
