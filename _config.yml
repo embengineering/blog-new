@@ -23,5 +23,5 @@ markdown: kramdown
 # Note: include drafts by using "jekyll serve --drafts" command.
 
 # Custom variables
-profile_thumbnail: "https://avatars0.githubusercontent.com/u/1769860?v=3&s=460"
+profile_thumbnail: "http://blog.embengineering.com/assets/intro-bg.jpg"
 excerpt_separator: <!--more-->

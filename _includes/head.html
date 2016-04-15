@@ -5,26 +5,17 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- facebook open graph tags -->
-    <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:image" content="{% if page.thumbnail %}{{ site.url }}{{ page.thumbnail }}{% else %}{{ site.profile_thumbnail }}{% endif %}" />
-    <meta property="og:site_name" content="{{ site.title }}">
-
-    <!-- twitter card tags additive with the og: tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:domain" value="{{ site.domain }}" />
-    <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="twitter:description" value="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:image" content="{% if page.thumbnail %}{{ site.url }}{{ page.thumbnail }}{% else %}{{ site.profile_thumbnail }}{% endif %}" />
-    <meta name="twitter:url" value="{{ site.url }}" />
     <meta name="twitter:site" content="{{ site.username }}">
     <meta name="twitter:creator" content="{{ site.username }}">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}"/>
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta property="og:image" content="{% if page.thumbnail %}{{ site.url }}{{ page.thumbnail }}{% else %}{{ site.profile_thumbnail }}{% endif %}"/>
 
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="application/rss+xml"  title="RSS"   href="/feed.xml" />
