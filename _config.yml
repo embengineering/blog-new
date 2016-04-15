@@ -9,9 +9,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /post/:year/:month/:day/:title/
 redcarpet:
     extensions: [with_toc_data]
-future: true
-poole:
-    word_separator: "-"
 include: [".well-known"]
 sass:
     sass_dir: _sass
