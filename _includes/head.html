@@ -6,25 +6,25 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
 
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:site_name" content="{{ site.title }}">
+    <!-- facebook open graph tags -->
+    <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
+    <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:image" content="{% if page.thumbnail %}{{ site.url }}{{ page.thumbnail }}{% else %}{{ site.profile_thumbnail }}{% endif %}">
-    <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:image" content="{% if page.thumbnail %}{{ site.url }}{{ page.thumbnail }}{% else %}{{ site.profile_thumbnail }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title }}">
 
-    <meta property="og:url" content="{% if page.title %}article{% else %}website{% endif %}">
-    <meta property="article:published_time" content="{% if page.date %}{{ page.date | date: "%Y-%m-%d" }}{% endif %}">
-    <meta property="article:author" content="{{ site.url }}/about/">
-    <meta name="twitter:card" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
+    <!-- twitter card tags additive with the og: tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="{{ site.domain }}" />
+    <meta name="twitter:title" value="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:description" value="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:image" content="{% if page.thumbnail %}{{ site.url }}{{ page.thumbnail }}{% else %}{{ site.profile_thumbnail }}{% endif %}" />
+    <meta name="twitter:url" value="{{ site.url }}" />
     <meta name="twitter:site" content="{{ site.username }}">
     <meta name="twitter:creator" content="{{ site.username }}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
-
-    <link rel="canonical" href="{{ site.url }}/#writing">
-    <link rel="author" href="{{ site.url }}/about/" title="About Me">
-    <link rel="home" href="{{ site.url }}" title="EMB Engineering's Blog">
 
     <link rel="icon" href="/favicon.ico">
     <link rel="alternate" type="application/rss+xml"  title="RSS"   href="/feed.xml" />
