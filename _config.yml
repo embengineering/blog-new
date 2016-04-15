@@ -5,8 +5,8 @@ email: "contact@embengineering.com"
 domain: "embengineering.com"
 description: A blog of ideas and thoughts about Front-End development, technology and more.
 url: "http://blog.embengineering.com" # the base hostname & protocol for your site
-baseurl: "/" # the subpath of your site, e.g. /blog
-permalink: /posts/:title
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /post/:year/:month/:day/:title/
 redcarpet:
     extensions: [with_toc_data]
 future: true
