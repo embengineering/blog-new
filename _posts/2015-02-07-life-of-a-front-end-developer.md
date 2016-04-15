@@ -4,7 +4,7 @@ title: "Life of a Front-End Developer"
 date: "2015-02-07"
 thumbnail: "/assets/posts/2016-02-07/image1.jpg"
 ---
-![Mind Map]({{ site.baseurl }}/assets/posts/2016-02-07/image1.jpg)
+![Post Thumbnail]({{ site.baseurl }}/assets/posts/2016-02-07/image1.jpg)
 
 Every time I see the following words I remember those days back before college when I wanted to be an Architect.
 <!--more-->
