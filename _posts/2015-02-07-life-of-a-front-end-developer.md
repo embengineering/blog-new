@@ -2,11 +2,12 @@
 layout: post
 title: "Life of a Front-End Developer"
 date: "2015-02-07"
+thumbnail: "/assets/posts/2016-02-07/image1.jpg"
 ---
+![Mind Map]({{ site.baseurl }}/assets/posts/2016-02-07/image1.jpg)
+
 Every time I see the following words I remember those days back before college when I wanted to be an Architect.
 <!--more-->
-
-![Mind Map]({{ site.url }}/assets/posts/2016-02-07/image1.jpg)
 
 According to the dictionary, an Architect is “a person who designs buildings and advises in construction projects”. For me, wanting to be an Architect was just the beginning of my journey; yet I found that there was something more that would fulfill my life than just house designing or building constructions. Designing, looking for simplicity, and giving advice would become part of my life as an UX designer.
 
