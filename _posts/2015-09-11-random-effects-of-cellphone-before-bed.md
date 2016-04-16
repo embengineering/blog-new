@@ -2,9 +2,10 @@
 title: "Effects of Cell Phone Use Before Bed"
 layout: post
 date: "2015-09-11"
-thumbnail: "/assets/images/cellphone-at-bed.jpg"
+thumbnail: "{{ '/assets/images/cellphone-at-bed.jpg' | prepend: site.baseurl | prepend: site.url }}"
 ---
-![Post Thumbnail]({{ site.baseurl }}/assets/images/cellphone-at-bed.jpg)
+![Post Thumbnail]({{ '/assets/images/cellphone-at-bed.jpg' | prepend: site.baseurl | prepend: site.url }})
+
 What happen to the brain when using your cell phone before bed?
 <!--more-->
 

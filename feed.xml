@@ -2,19 +2,31 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.url }}/feed.xml" rel="alternate" title="{{ site.title }}" type="application/rss+xml"/>
+    <webfeeds:cover image="{{ site.profile_thumbnail }}" />
+    <webfeeds:icon>{{ site.url }}/icon.svg</webfeeds:icon>
+    <webfeeds:logo>{{ site.profile_thumbnail }}</webfeeds:logo>
+    <webfeeds:accentColor>00FF00</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser" />
+    <webfeeds:analytics id="UA-73884819-1" engine="GoogleAnalytics"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        {% if post.excerpt %}
+          <description>{{ post.excerpt | xml_escape }}</description>
+        {% else %}
+          <description>{{ post.content | xml_escape }}</description>
+        {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>

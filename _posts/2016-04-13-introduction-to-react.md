@@ -2,9 +2,9 @@
 title: "Introduction to React"
 layout: post
 date: 2016-04-13
-thumbnail: "/assets/images/thinking.gif"
+thumbnail: "{{ '/assets/images/thinking.gif' | prepend: site.baseurl | prepend: site.url }}"
 ---
-![Post Thumbnail]({{ site.baseurl }}/assets/images/thinking.gif)
+![Post Thumbnail]({{ '/assets/images/thinking.gif' | prepend: site.baseurl | prepend: site.url }})
 
 I constantly see myself referencing critical concepts about React, such as its importance, syntax and performance. There is too much information out there, so my intention is to reconcile important concepts about this technology.
 <!--more-->

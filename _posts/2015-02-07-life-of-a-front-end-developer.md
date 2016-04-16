@@ -2,9 +2,9 @@
 layout: post
 title: "Life of a Front-End Developer"
 date: "2015-02-07"
-thumbnail: "/assets/posts/2016-02-07/image1.jpg"
+thumbnail: "{{ '/assets/posts/2016-02-07/image1.jpg' | prepend: site.baseurl | prepend: site.url }}"
 ---
-![Post Thumbnail]({{ site.baseurl }}/assets/posts/2016-02-07/image1.jpg)
+![Post Thumbnail]({{ '/assets/posts/2016-02-07/image1.jpg' | prepend: site.baseurl | prepend: site.url }})
 
 Every time I see the following words I remember those days back before college when I wanted to be an Architect.
 <!--more-->
