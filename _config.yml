@@ -13,12 +13,8 @@ include: [".well-known"]
 sass:
     sass_dir: _sass
     sourcemap: true
-
-# Build settings
 markdown: kramdown
-
-# Note: include drafts by using "jekyll serve --drafts" command.
-
-# Custom variables
+gems:
+  - jekyll-feed
 profile_thumbnail: "http://blog.embengineering.com/assets/intro-bg.jpg"
 excerpt_separator: <!--more-->
