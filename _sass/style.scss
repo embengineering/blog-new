@@ -68,6 +68,12 @@ body {
 }
 
 img[alt="Post Thumbnail"] {
-  width: 100vw; 
+  width: 100vw;
   max-width:100%;
+}
+
+footer {
+  .inline-nav {
+    font-size: 80%;
+  }
 }

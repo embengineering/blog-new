@@ -37,7 +37,7 @@ ul.inline-nav {
       margin-right: 0;
     }
     &::after {
-      content: ' · ';
+      content: ' \00B7 ';
     }
     &:last-child::after {
       content: '';
@@ -107,7 +107,7 @@ hr {
 
   &::before {
     display: block;
-    content: '···';
+    content: '\00B7\00B7\00B7\00B7\00B7\00B7';
     text-align: center;
     margin: 0.5rem 0;
   }
