@@ -5,16 +5,18 @@
 //
 // =============================================================
 // =============================================================
-.hero-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: url(/assets/intro-bg.jpg) no-repeat center center;
-  min-height: 100vh;
-}
 .hero {
   @extend .colors-blue-dark;
+  background:
+  linear-gradient(
+    rgba(0, 96, 100, 0.9),
+    rgba(0, 96, 100, 0.9)
+  ),
+  url(/assets/intro-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   opacity: 0.90;
   min-height: 100vh;
   position: relative;
