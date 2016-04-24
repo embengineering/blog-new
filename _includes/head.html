@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
 
-    <meta name="twitter:site" content="{{ site.username }}">
-    <meta name="twitter:creator" content="{{ site.username }}">
+    <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ site.username }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:creator" content="{{ site.username }}">
+    <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.profile_thumbnail }}{% endif %}">
 
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}"/>
