@@ -2,9 +2,9 @@
 title: "Getting Started with React And Redux"
 layout: post
 date: "2016-04-25"
-thumbnail: "{{site.baseurl}}/assets/images/building.png"
+thumbnail: "{{site.baseurl}}/assets/images/writing-react-component.gif"
 ---
-![Post Thumbnail]({{site.baseurl}}/assets/images/building.png)
+![Post Thumbnail]({{site.baseurl}}/assets/images/writing-react-component.gif)
 
 Let's create a small application using React and Redux...
 <!--more-->
@@ -45,20 +45,8 @@ apm install auto-detect-indentation highlight-selected pigments react sort-lines
 {% endhighlight %}
 
 ## Build a Mini Dashboard (The Right Way)
-1. Create `Card.jsx` into `/components`.
+[Step 1:](https://github.com/embengineering/react-redux-starting-kit/commit/a83e2bde358511344bf1a65e5443fc6b37d0afdb)  Create `~/components/Card.jsx` component and refactor `StaticMiniDashboard.jsx` to use it.
 
-{% highlight jsx %}
-import React from 'react';
+[Step 2:]()  Create `~/components/WelcomeCard.jsx` component and refactor `StaticMiniDashboard.jsx` to use it.
 
-const Card = ({className, imgUrl, title, msg}) => (
-  <div className={className}>
-    <div className="mdl-card__title"
-      style={{background: 'url(' + imgUrl  + ') center/cover'}}>
-      <h2 className="mdl-card__title-text">{title}</h2>
-    </div>
-    <div className="mdl-card__supporting-text">{msg}</div>
-  </div>
-);
-
-export default Card;
-{% endhighlight %}
+[Step 3:]()  Create `~/components/CardList.jsx` component and refactor `StaticMiniDashboard.jsx` to use it.
