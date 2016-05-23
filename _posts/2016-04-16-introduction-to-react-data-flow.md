@@ -2,7 +2,7 @@
 title: "Introduction to React Data Flow"
 layout: post
 date: 2016-04-16
-thumbnail: "{{site.baseurl}}/assets/images/football-passing.gif"
+thumbnail: "/assets/images/football-passing.gif"
 ---
 ![Post Thumbnail](/assets/images/football-passing.gif)
 

@@ -2,9 +2,9 @@
 title: "Getting Started with React And Redux"
 layout: post
 date: "2016-05-22"
-thumbnail: "{{site.baseurl}}/assets/images/writing-react-component.gif"
+thumbnail: "/assets/images/writing-react-component.gif"
 ---
-![Post Thumbnail]({{site.baseurl}}/assets/images/writing-react-component.gif)
+![Post Thumbnail](/assets/images/writing-react-component.gif)
 
 Let's create a small application using React and Redux...
 <!--more-->

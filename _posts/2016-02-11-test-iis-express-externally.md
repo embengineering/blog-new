@@ -2,9 +2,9 @@
 layout: post
 title: "Test IIS Express Externally"
 date: "2016-02-11"
-thumbnail: "{{ '/assets/images/unable-to-connect-to-internet.gif' | prepend: site.baseurl | prepend: site.url }}"
+thumbnail: "/assets/images/unable-to-connect-to-internet.gif"
 ---
-![Post Thumbnail]({{ '/assets/images/unable-to-connect-to-internet.gif' | prepend: site.baseurl | prepend: site.url }})
+![Post Thumbnail](/assets/images/unable-to-connect-to-internet.gif)
 
 Are you a .NET developer building mobile web applications? Have you ever been frustrated by the fact that there's no easy way to enable IIS Express to accept connections from remote devices?
 <!--more-->
